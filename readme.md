@@ -1,19 +1,20 @@
-### NugetServer´î½¨²½Öè
-* ĞÂ½¨Ò»¸ö»ùÓÚFramework4.6+ µÄ¿ÕAsp.net Web ApplicationÏîÄ¿£»
-* ÒıÈëNuget.Server°ü£¬²¢ÔÚÒıÈë¹ı³ÌÖĞÑ¡ÔñÍ¬Òâ£¬ÔÚ¸²¸ÇWeb.configÅäÖÃÊ±£¬Ñ¡Ôñ¡°ÊÇ¡±»òÕß¡°È«²¿ÊÇ¡±£»
-* ÅäÖÃWeb.configÖĞÏà¹Ø²ÎÊı£»
-  * requireApiKey£ºÇëÇóNugetServerÊ±£¬ÊÇ·ñĞèÒªKey£¬°²È«Æğ¼û½¨ÒéÆôÓÃ£»
-  * apiKey£º¶ÔÓ¦µÄ¿ÚÁî£¬¿ÉÒÔÈÎÒâÉèÖÃ£¬µ÷ÓÃÊ±±£³ÖÒ»ÖÂ¾Í¿ÉÒÔÁË£»
-  * packagesPath£ºÉÏ´«µÄNuget°ü´æ·ÅÎ»ÖÃ£¬Ä¬ÈÏÊÇ~/PackagesÏÂ£»Äã¿ÉÒÔÉèÖÃÎªÆäËûÄ¿Â¼£¬±ÈÈçD:\Packages;
-* ²¿Êğµ½IISÉÏ£¬È»ºóä¯ÀÀ¼´¿É£»
-* ÔÚÊ¹ÓÃÊ±£¬ÅäÖÃnuget Source¾Í¿ÉÒÔÓÃÁË£»
+# Auto.NuGetServer
+### NugetServeræ­å»ºæ­¥éª¤
+* æ–°å»ºä¸€ä¸ªåŸºäºFramework4.6+ çš„ç©ºAsp.net Web Applicationé¡¹ç›®ï¼›
+* å¼•å…¥Nuget.ServeråŒ…ï¼Œå¹¶åœ¨å¼•å…¥è¿‡ç¨‹ä¸­é€‰æ‹©åŒæ„ï¼Œåœ¨è¦†ç›–Web.configé…ç½®æ—¶ï¼Œé€‰æ‹©â€œæ˜¯â€æˆ–è€…â€œå…¨éƒ¨æ˜¯â€ï¼›
+* é…ç½®Web.configä¸­ç›¸å…³å‚æ•°ï¼›
+  * requireApiKeyï¼šè¯·æ±‚NugetServeræ—¶ï¼Œæ˜¯å¦éœ€è¦Keyï¼Œå®‰å…¨èµ·è§å»ºè®®å¯ç”¨ï¼›
+  * apiKeyï¼šå¯¹åº”çš„å£ä»¤ï¼Œå¯ä»¥ä»»æ„è®¾ç½®ï¼Œè°ƒç”¨æ—¶ä¿æŒä¸€è‡´å°±å¯ä»¥äº†ï¼›
+  * packagesPathï¼šä¸Šä¼ çš„NugetåŒ…å­˜æ”¾ä½ç½®ï¼Œé»˜è®¤æ˜¯~/Packagesä¸‹ï¼›ä½ å¯ä»¥è®¾ç½®ä¸ºå…¶ä»–ç›®å½•ï¼Œæ¯”å¦‚D:\Packages;
+* éƒ¨ç½²åˆ°IISä¸Šï¼Œç„¶åæµè§ˆå³å¯ï¼›
+* åœ¨ä½¿ç”¨æ—¶ï¼Œé…ç½®nuget Sourceå°±å¯ä»¥ç”¨äº†ï¼›
 ---
-#### ·¢²¼³ÌĞò°üµ½NugetServer
-* ĞèÒª°²×°Ò»¸öNuget Deploy²å¼ş£¬·½±ã·¢²¼³ÌĞò°ü£»Ò²¿ÉÒÔÊ¹ÓÃNuget Package Manager¹¤¾ß£¬µ«ÊÇÏà¶Ô±È½Ï·Ñ¾¢Ğ©£»
-* **ÅäÖÃNuget Deploy**
-  * ÅäÖÃNuget Path and Servers:ĞèÒªÓÃµ½Ò»¸öNuget.EXE;¿ÉÒÔÈ¥¹Ù·½ÏÂÔØ(http://docs.nuget.org/consume/command-line-reference);
-  * ÅäÖÃÔ¶³ÌNugetSeverµÄµØÖ·ºÍAPIKey£»
+#### å‘å¸ƒç¨‹åºåŒ…åˆ°NugetServer
+* éœ€è¦å®‰è£…ä¸€ä¸ªNuget Deployæ’ä»¶ï¼Œæ–¹ä¾¿å‘å¸ƒç¨‹åºåŒ…ï¼›ä¹Ÿå¯ä»¥ä½¿ç”¨Nuget Package Managerå·¥å…·ï¼Œä½†æ˜¯ç›¸å¯¹æ¯”è¾ƒè´¹åŠ²äº›ï¼›
+* **é…ç½®Nuget Deploy**
+  * é…ç½®Nuget Path and Servers:éœ€è¦ç”¨åˆ°ä¸€ä¸ªNuget.EXE;å¯ä»¥å»å®˜æ–¹ä¸‹è½½(http://docs.nuget.org/consume/command-line-reference);
+  * é…ç½®è¿œç¨‹NugetSeverçš„åœ°å€å’ŒAPIKeyï¼›
   ![](20160902130509.png)
 
-  * ·¢²¼Ö®ºó£¬¾Í¿ÉÒÔÔÚNugetServer·şÎñÆ÷ÉÏ¿´µ½µÄÌá½»µÄ³ÌĞò°üÁË¡£
+  * å‘å¸ƒä¹‹åï¼Œå°±å¯ä»¥åœ¨NugetServeræœåŠ¡å™¨ä¸Šçœ‹åˆ°çš„æäº¤çš„ç¨‹åºåŒ…äº†ã€‚
   ![](20160902130406.png)
